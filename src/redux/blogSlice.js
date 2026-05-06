@@ -93,7 +93,7 @@ export const blogSlice = createSlice({
       );
 
       if (blog) {
-        blog.likes++;
+        blog.likes=blog.likes-1;
       }
       saveBlogsToLocalStorage(state.blogs);
     },

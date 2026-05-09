@@ -22,7 +22,7 @@ export default function HeroShowcase() {
           onClick={() => navigate('/add')}
           className="rounded-full px-8 py-3 bg-blue-600 text-white font-medium shadow-lg hover:bg-blue-700 hover:scale-105 transform transition-all duration-200"
         >
-          Start Writing
+          Start
         </button>
 
         <div className="mt-16 relative rounded-[36px] bg-white/80 backdrop-blur-xl shadow-2xl border border-gray-100 p-6 md:p-10 min-h-[620px] overflow-hidden">
